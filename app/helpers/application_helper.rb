@@ -1,7 +1,7 @@
 module ApplicationHelper
   # Return a title on a per-page basis.
   def title
-      base_title = "iBragu - a social bet platform"
+      base_title = "Gambull - a social bet platform"
       if @title.nil?
         base_title
       else
@@ -10,6 +10,6 @@ module ApplicationHelper
   end
   
   def logo 
-    image_tag("logo.png", :alt => "Brag", :class => "round")
+    image_tag("logo.png", :alt => "gambull", :class => "round")
   end
 end
